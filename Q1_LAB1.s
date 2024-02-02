@@ -1,6 +1,7 @@
 	AREA RESET, DATA, READONLY
 	EXPORT __VECTORS
 __VECTORS
+
 	DCD 0x40001000 ;Stack pointer when stack is empty
 	DCD Reset_Handler
 	ALIGN	
